@@ -1,0 +1,66 @@
+{
+    "name": "Shop Quần Áo - Laravel E-commerce",
+    "version": "1.0.0",
+    "description": "Hệ thống quản lý shop quần áo với Laravel, Tailwind CSS",
+    "author": "Your Name",
+    
+    "requirements": {
+        "php": ">=8.0",
+        "composer": "latest",
+        "nodejs": ">=14.x",
+        "mysql": ">=5.7"
+    },
+    
+    "features": [
+        "Admin Dashboard với thống kê",
+        "Quản lý sản phẩm (CRUD)",
+        "Quản lý danh mục sản phẩm",
+        "Quản lý users và roles",
+        "Upload hình ảnh sản phẩm",
+        "Trang shop cho khách hàng",
+        "Filter và sắp xếp sản phẩm",
+        "Responsive design với Tailwind CSS",
+        "Authentication và Authorization"
+    ],
+    
+    "tech_stack": {
+        "backend": "Laravel 9.x",
+        "frontend": "Tailwind CSS 3.x, Alpine.js 3.x",
+        "database": "MySQL/MariaDB",
+        "build_tools": "Laravel Mix"
+    },
+    
+    "installation": {
+        "windows": "Chạy setup.bat",
+        "linux_mac": "Chạy bash setup.sh",
+        "manual": "Xem file SETUP.md để biết chi tiết"
+    },
+    
+    "scripts": {
+        "setup": "setup.bat hoặc bash setup.sh",
+        "setup-database": "setup-database.bat",
+        "start-dev": "start-dev.bat",
+        "clear-cache": "clear-cache.bat",
+        "sync-storage": "sync-storage.bat"
+    },
+    
+    "default_accounts": {
+        "admin": {
+            "email": "admin@example.com",
+            "password": "password",
+            "role": "admin"
+        },
+        "user": {
+            "email": "user@example.com",
+            "password": "password",
+            "role": "user"
+        }
+    },
+    
+    "urls": {
+        "home": "http://127.0.0.1:8000",
+        "products": "http://127.0.0.1:8000/products",
+        "admin": "http://127.0.0.1:8000/admin/dashboard",
+        "login": "http://127.0.0.1:8000/login"
+    }
+}

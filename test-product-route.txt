@@ -1,0 +1,27 @@
+Test Product Routes:
+
+1. Trang chủ: http://127.0.0.1:8000/
+2. Danh sách sản phẩm: http://127.0.0.1:8000/products
+3. Chi tiết sản phẩm (ví dụ): http://127.0.0.1:8000/products/ao-thun-trang
+
+Đã cập nhật:
+✅ Product Model - thêm getRouteKeyName() để sử dụng slug thay vì id
+✅ ProductController - method show() đã có sẵn
+✅ Route web.php - route products.show đã được định nghĩa
+✅ View products/show.blade.php - đã chuyển sang Tailwind CSS hiện đại
+
+Cách test:
+1. Mở trình duyệt
+2. Vào http://127.0.0.1:8000/products
+3. Click vào nút "Chi tiết" của bất kỳ sản phẩm nào
+4. Sẽ mở trang chi tiết sản phẩm với URL dạng: /products/slug-san-pham
+
+Nếu gặp lỗi 404, có thể do:
+- Sản phẩm không có slug
+- Slug không đúng format
+- Cache route cũ
+
+Giải pháp:
+php artisan route:clear
+php artisan cache:clear
+php artisan config:clear
