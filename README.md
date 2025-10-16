@@ -520,3 +520,5 @@ php artisan storage:link
 **⭐ Project hoàn chỉnh, sẵn sàng nộp bài! ⭐**
 
 **🎓 Chúc bạn đạt điểm cao! 🎓**
+#   s h o p - q u a n - a o  
+ 
